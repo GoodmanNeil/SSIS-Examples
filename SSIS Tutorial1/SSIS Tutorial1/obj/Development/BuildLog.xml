@@ -2,7 +2,7 @@
 <BuildLog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <ProjectInfo>
     <Name>SSIS Tutorial1</Name>
-    <LastWriteTime>2016-08-09T18:55:34.8714398Z</LastWriteTime>
+    <LastWriteTime>2016-08-09T19:13:10.1453445Z</LastWriteTime>
     <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
   </ProjectInfo>
   <LastBuildInfos>
@@ -14,6 +14,16 @@
     <ProjectBuildItemInfo>
       <Name>Lesson 2.dtsx</Name>
       <LastWriteTime>2016-08-09T18:55:34.1640461Z</LastWriteTime>
+      <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
+    </ProjectBuildItemInfo>
+    <ProjectBuildItemInfo>
+      <Name>Lesson 3.dtsx</Name>
+      <LastWriteTime>2016-08-09T19:07:48.2011654Z</LastWriteTime>
+      <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
+    </ProjectBuildItemInfo>
+    <ProjectBuildItemInfo>
+      <Name>Lesson 4.dtsx</Name>
+      <LastWriteTime>2016-08-09T19:13:10.0473094Z</LastWriteTime>
       <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
     </ProjectBuildItemInfo>
   </LastBuildInfos>

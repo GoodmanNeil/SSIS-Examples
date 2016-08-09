@@ -11,8 +11,8 @@
   DTS:LocaleID="2057"
   DTS:ObjectName="Lesson 1"
   DTS:PackageType="5"
-  DTS:VersionBuild="1"
-  DTS:VersionGUID="{88369C4A-4C97-44A9-A742-97ED48A4C1AE}">
+  DTS:VersionBuild="2"
+  DTS:VersionGUID="{410AEF78-9CC1-4B26-B3AD-DA30B5C8512B}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -791,14 +791,14 @@ where [refTable].[FullDateAlternateKey] = ?</property>
         <NodeLayout
           Size="220,42"
           Id="Package\Extract Sample Currency Data\Extract Sample Currency Data"
-          TopLeft="57,16" />
+          TopLeft="457,16" />
         <NodeLayout
-          Size="179,42"
+          Size="220,42"
           Id="Package\Extract Sample Currency Data\Lookup Currency Key"
-          TopLeft="80,98" />
+          TopLeft="457,98" />
         <EdgeLayout
           Id="Package\Extract Sample Currency Data.Paths[Flat File Source Output]"
-          TopLeft="168.25,58">
+          TopLeft="567,58">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
@@ -819,85 +819,68 @@ where [refTable].[FullDateAlternateKey] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <NodeLayout
-          Size="159,42"
+          Size="220,42"
           Id="Package\Extract Sample Currency Data\Lookup Date Key"
-          TopLeft="123,188" />
+          TopLeft="457,188" />
         <EdgeLayout
           Id="Package\Extract Sample Currency Data.Paths[Lookup Match Output]"
-          TopLeft="169.5,140">
+          TopLeft="567,140">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="33,48"
+              EndConnector="0,48"
               Start="0,0"
-              End="33,40.5">
+              End="0,40.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,20" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,20"
-                    Point2="0,24"
-                    Point3="4,24" />
-                  <mssgle:LineSegment
-                    End="29,24" />
-                  <mssgle:CubicBezierSegment
-                    Point1="29,24"
-                    Point2="33,24"
-                    Point3="33,28" />
-                  <mssgle:LineSegment
-                    End="33,40.5" />
+                    End="0,40.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
             <mssgm:EdgeLabel
-              BoundingBox="-31.69138671875,29,96.3827734375,11.609375"
+              BoundingBox="-48.19138671875,14.4453125,96.3827734375,11.609375"
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <NodeLayout
-          Size="209,42"
+          Size="220,42"
           Id="Package\Extract Sample Currency Data\Sample OLE DB Destination"
-          TopLeft="141,267" />
+          TopLeft="457,267" />
         <EdgeLayout
           Id="Package\Extract Sample Currency Data.Paths[Lookup Match Output1]"
-          TopLeft="202.5,230">
+          TopLeft="567,230">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="43,37"
+              EndConnector="0,37"
               Start="0,0"
-              End="43,29.5">
+              End="0,29.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,14.5" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,14.5"
-                    Point2="0,18.5"
-                    Point3="4,18.5" />
-                  <mssgle:LineSegment
-                    End="39,18.5" />
-                  <mssgle:CubicBezierSegment
-                    Point1="39,18.5"
-                    Point2="43,18.5"
-                    Point3="43,22.5" />
-                  <mssgle:LineSegment
-                    End="43,29.5" />
+                    End="0,29.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
             <mssgm:EdgeLabel
-              BoundingBox="-26.69138671875,23.5,96.3827734375,11.609375"
+              BoundingBox="-48.19138671875,8.9453125,96.3827734375,11.609375"
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
+        <AnnotationLayout
+          Text="The data flow extracts data from a file, looks up values in the &#xD;&#xA;CurrencyKey column in the DimCurrency table and the &#xD;&#xA;DateKey column in the DimDate table, and writes the data to &#xD;&#xA;the NewFactCurrencyRate table."
+          ParentId="Package\Extract Sample Currency Data"
+          FontInfo="{assembly:Null}"
+          Size="353,88"
+          Id="ffd9850c-8fac-4ef0-8f79-7648601b2900"
+          TopLeft="753,117" />
       </GraphLayout>
     </LayoutInfo>
   </TaskHost>
